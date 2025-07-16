@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanya Gupta | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="header">
+    <div><strong>Tanya Gupta</strong></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <h1>Hi, I'm Tanya Gupta</h1>
+      <!-- <p>Front-End Developer | Java & Python Enthusiast</p> -->
+      <p><strong>Email:</strong> tanyagupta24.77@gmail.com</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Enthusiastic and hardworking Computer Science student with a keen interest in <strong>front-end development</strong>. Passionate about building real-world projects, learning new technologies, and delivering quality work. Actively seeking opportunities to grow as a developer and contribute to impactful teams.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>FairShare BU</strong> – Java Web App<br>Expense-sharing app using <em>Java, JSP, Servlets, JDBC, MySQL</em>. Features: group creation, budget tracking, chat.</li>
+        <li><strong>Snake Game</strong> – Python Console Game<br>Classic Snake game using <em>Python & turtle module</em> with scoring, speed control, and collision logic.</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Bennett University, Greater Noida</strong> – B.Tech in CSE (Cloud Computing) | CGPA: 9.46 (2024-2028)</li>
+        <li><strong>DPS, Shikohabad</strong> – Class 12 | 93% | School Topper (2024)</li>
+        <li><strong>DPS, Shikohabad</strong> – Class 10 | 95.6% | School Topper (2022)</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="two-column">
+        <div>
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Java (Basic)</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>DBMS</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Functional Skills</h3>
+          <ul>
+            <li>Communication</li>
+            <li>Leadership</li>
+            <li>Time Management</li>
+            <li>Problem Solving</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <ul>
+        <li>Core Java Programming Revisited – Infosys Springboard (Feb 2025)</li>
+        <li>Python Fundamentals – Infosys Springboard (Oct 2024)</li>
+        <li>Hack The Mountains 5.0 – Hackathon at Marwadi University (Sep 2024)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p><a href="mailto:tanyagupta24.77@gmail.com">📧 Email Me</a>
+      <a href="www.linkedin.com/in/tanya-gupta-106853172" target="_blank">LinkedIn</a>
+      <a href="https://leetcode.com/u/Tanya_gupta1010/" target="_blank">LeetCode</a>
+      <a href="https://github.com/TanyaGupta1010" target="_blank">GitHub</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Tanya Gupta | All rights reserved.
+  </footer>
+
+  <script>
+    const header = document.getElementById("header");
+    window.addEventListener("scroll", () => {
+      header.classList.toggle("scrolled", window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>
